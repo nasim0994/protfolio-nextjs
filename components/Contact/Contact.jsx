@@ -4,15 +4,17 @@ import { AiOutlineMobile } from "react-icons/ai";
 
 export default function Contact() {
   return (
-    <section className="py-10" id="contact">
+    <section className="py-20" id="contact">
       <div className="container">
         <h2 className="text-primary">Contact</h2>
-        <h2 className="text-3xl">Don&apos;t be shy! Hit me up! 👇</h2>
+        <h2 className="text-2xl sm:text-3xl">
+          Don&apos;t be shy! Hit me up! 👇
+        </h2>
 
         <div className="mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div className="flex items-center gap-2">
             <div className="w-14 h-14 bg-base-100 shadow-lg rounded-full flex justify-center items-center ">
-              <FiMap className="text-2xl text-primary" />
+              <FiMap className="text-xl sm:text-2xl text-primary" />
             </div>
             <div>
               <h3 className="text-lg">Location</h3>
@@ -22,7 +24,7 @@ export default function Contact() {
 
           <div className="flex items-center gap-2">
             <div className="w-16 h-16 bg-base-100 shadow-lg rounded-full flex justify-center items-center">
-              <HiOutlineMail className="text-3xl text-primary" />
+              <HiOutlineMail className="text-xl sm:text-3xl text-primary" />
             </div>
             <div>
               <h3 className="text-lg">Email</h3>
@@ -32,7 +34,7 @@ export default function Contact() {
 
           <div className="flex items-center gap-2">
             <div className="w-16 h-16 bg-base-100 shadow-lg rounded-full flex justify-center items-center">
-              <AiOutlineMobile className="text-3xl text-primary" />
+              <AiOutlineMobile className="text-xl sm:text-3xl text-primary" />
             </div>
             <div>
               <h3 className="text-lg">Number</h3>

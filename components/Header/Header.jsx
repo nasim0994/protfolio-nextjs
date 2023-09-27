@@ -26,10 +26,7 @@ export default function Header() {
       <div className="container">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center gap-px">
-            <h1 className="font-bold text-2xl mt-">
-              <span className="text-primary">Nasim</span>
-              <span className="text-secondary">.dev</span>
-            </h1>
+            <h1 className="font-bold text-2xl text-gradient">Nasim.dev</h1>
           </Link>
 
           <nav>

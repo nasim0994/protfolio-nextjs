@@ -50,6 +50,12 @@ h2 {
   background-image: linear-gradient(to left, #9a4dc1, #4e90e7);
 }
 
+.text-gradient {
+  background: #9a4dc1;
+  background: linear-gradient(to right, #9a4dc1 0%, #4e90e7 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
 /* --------------------Hero------------------ */
 .fixed_header {
   position: fixed;

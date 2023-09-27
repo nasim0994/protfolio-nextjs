@@ -120,15 +120,13 @@ export default function Projects() {
 
           <div className="project_card">
             <div className="project_content">
-              <h2 className="text-xl">MaxUI (CSS Framework)</h2>
+              <h2 className="text-xl">E-learning</h2>
               <div className="mt-3 text-neutral-content">
                 <p>
-                  MaxUI is a library of components built on top of the utility
-                  classes from Tailwind CSS. It is just a demo.
+                  E-learning is a website selling online courses. This is a
+                  bootstrap landing page.
                 </p>
-                <p className="mt-2">
-                  Technologies: React.js, and Tailwind CSS.
-                </p>
+                <p className="mt-2">Technologies: HTML, and Bootstrap.</p>
               </div>
 
               <div className="links">
@@ -144,7 +142,7 @@ export default function Projects() {
             <div className="project_img">
               <Link href="">
                 <Image
-                  src="/images/projects/maxui.png"
+                  src="/images/projects/e-learning.png"
                   alt=""
                   width={500}
                   height={500}

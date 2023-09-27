@@ -1,10 +1,34 @@
+"use client";
 import Link from "next/link";
 import Image from "next/image";
 import Header from "../Header/Header";
 import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoBold } from "react-icons/pi";
+import Typed from "typed.js";
+import { useEffect, useRef } from "react";
 
 export default function Hero() {
+  const el = useRef(null);
+
+  useEffect(() => {
+    const typed = new Typed(el.current, {
+      strings: [
+        "MERN Stack Developer",
+        "Front-End Developer",
+        "React Developer",
+      ],
+      typeSpeed: 70,
+      backSpeed: 70,
+      backDelay: 500,
+      startDelay: 300,
+      loop: true,
+    });
+
+    return () => {
+      typed.destroy();
+    };
+  }, []);
+
   return (
     <section className="hero_wrap h-[90vh] lg:h-screen">
       <Header />
@@ -17,7 +41,12 @@ export default function Hero() {
               <h2 className="text-3xl md:text-5xl lg:text-6xl sm:my-3">
                 Nasim Uddin
               </h2>
-              <h2 className="sm:text-xl">And i am MERN Stack Developer</h2>
+              <h2 className="sm:text-xl">
+                And i am{" "}
+                <span ref={el} className="text-gradient">
+                  MERN Stack Developer
+                </span>
+              </h2>
 
               <div className="mt-6 flex gap-3">
                 <Link

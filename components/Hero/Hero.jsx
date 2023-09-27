@@ -2,6 +2,8 @@
 import Link from "next/link";
 import Image from "next/image";
 import Header from "../Header/Header";
+import { FiGithub } from "react-icons/fi";
+import { PiLinkedinLogoBold } from "react-icons/pi";
 
 export default function Hero() {
   return (
@@ -10,20 +12,37 @@ export default function Hero() {
 
       <div className="hero_content ">
         <div className="container">
-          <div className="sm:flex gap-10 items-center">
-            <div className="relative z-40 md:1/2 lg:w-[40%]">
+          <div className="grid md:grid-cols-2 gap-10 items-center">
+            <div className="relative z-40">
               <h2 className="sm:text-2xl">Hello, my name is</h2>
               <h2 className="text-3xl md:text-5xl lg:text-6xl sm:my-3">
                 Nasim Uddin
               </h2>
               <h2 className="sm:text-xl">And i am MERN Stack Developer</h2>
+
+              <div className="mt-6 flex gap-3">
+                <Link
+                  href="https://github.com/nasim0994"
+                  target="_blank"
+                  className="text-[25px] hover:text-primary duration-300"
+                >
+                  <PiLinkedinLogoBold />
+                </Link>
+                <Link
+                  href="https://github.com/nasim0994"
+                  target="_blank"
+                  className="text-[25px] hover:text-primary duration-300"
+                >
+                  <FiGithub />
+                </Link>
+              </div>
             </div>
 
-            <div className="md:w-1/2 lg:w-[60%] mt-10 sm:mt-0">
+            <div>
               <Image
                 src="/images/hero/hero.png"
                 alt=""
-                className="w-[90%] mx-auto"
+                className="w-full mx-auto"
                 width={500}
                 height={500}
               />

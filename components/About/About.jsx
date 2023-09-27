@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function About() {
   return (
-    <section className="py-10">
+    <section className="py-10" id="about">
       <div className="container">
         <div className="grid lg:grid-cols-2 gap-10 items-center">
           <div>

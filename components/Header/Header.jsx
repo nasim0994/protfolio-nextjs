@@ -1,30 +1,34 @@
+"use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { BiSun } from "react-icons/bi";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { MdDarkMode } from "react-icons/md";
 
 import MobileMenu from "./MobileMenu";
-import Image from "next/image";
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
+  const [fixedHeader, setFixedHeader] = useState(false);
+
+  useEffect(() => {
+    window.addEventListener("scroll", () => {
+      if (window.scrollY > 35) {
+        setFixedHeader(true);
+      } else {
+        setFixedHeader(false);
+      }
+    });
+  }, []);
 
   return (
-    <header className="py-4">
+    <header className={`py-4 ${fixedHeader && "fixed_header"}`}>
       <div className="container">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center gap-px">
-            <Image
-              src="/images/logo/logo.png"
-              alt=""
-              className="w-9"
-              width={500}
-              height={500}
-            />
             <h1 className="font-bold text-2xl mt-">
-              <span className="text-primary">as</span>
-              <span className="text-secondary">im.</span>
+              <span className="text-primary">Nasim</span>
+              <span className="text-secondary">.dev</span>
             </h1>
           </Link>
 
@@ -34,13 +38,13 @@ export default function Header() {
                 <Link href="#about">About</Link>
               </li>
               <li>
-                <Link href="#contact">Contact</Link>
+                <Link href="#projects">Projects</Link>
               </li>
               <li>
                 <Link href="#skills">Skills</Link>
               </li>
               <li>
-                <Link href="#projects">Projects</Link>
+                <Link href="#contact">Contact</Link>
               </li>
               <li>
                 <Link href="">Blogs</Link>

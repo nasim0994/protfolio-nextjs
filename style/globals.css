@@ -50,7 +50,17 @@ h2 {
   background-image: linear-gradient(to left, #9a4dc1, #4e90e7);
 }
 
-/* --------------- */
+/* --------------------Hero------------------ */
+.fixed_header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+  background: #ffffffcc;
+  backdrop-filter: blur(30px);
+  box-shadow: 0 -3px 13px -4px #0000000d, 0 8px 9px -5px #0000000d;
+}
 
 .menu li a {
   color: #606060;

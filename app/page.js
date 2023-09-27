@@ -4,6 +4,7 @@ import Experience from "@/components/Experience/Experience";
 import Footer from "@/components/Footer/Footer";
 import Hero from "@/components/Hero/Hero";
 import Projects from "@/components/Projects/Projects";
+import ScrollTop from "@/components/ScrollTop/ScrollTop";
 import Skills from "@/components/Skills/Skills";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Contact />
       <Experience />
       <Footer />
+      <ScrollTop />
     </>
   );
 }

@@ -30,7 +30,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="hero_wrap h-[90vh] lg:h-screen">
+    <section className="hero_wrap h-[90vh] lg:h-screen" id="home">
       <Header />
 
       <div className="hero_content ">

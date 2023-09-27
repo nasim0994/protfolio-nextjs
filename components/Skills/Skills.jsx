@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Skills() {
   return (
-    <section className="py-20 bg-gray-50" id="skills">
+    <section className="py-10 sm:py-20 bg-gray-50" id="skills">
       <div className="container">
         <h2 className="text-primary">Skills</h2>
 

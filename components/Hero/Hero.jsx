@@ -17,22 +17,13 @@ export default function Hero() {
                 Nasim Uddin
               </h2>
               <h2 className="sm:text-xl">And i am MERN Stack Developer</h2>
-
-              <div className="mt-5 sm:mt-8">
-                <Link
-                  href=""
-                  className="bg-primary-g px-5 py-2.5 text-sm sm:text-base"
-                >
-                  View Resume
-                </Link>
-              </div>
             </div>
 
             <div className="md:w-1/2 lg:w-[60%] mt-10 sm:mt-0">
               <Image
                 src="/images/hero/hero.png"
                 alt=""
-                className="w-full mx-auto"
+                className="w-[90%] mx-auto"
                 width={500}
                 height={500}
               />

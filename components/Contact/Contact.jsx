@@ -4,7 +4,7 @@ import { AiOutlineMobile } from "react-icons/ai";
 
 export default function Contact() {
   return (
-    <section className="py-20" id="contact">
+    <section className="py-20 bg-gray-50" id="contact">
       <div className="container">
         <h2 className="text-primary">Contact</h2>
         <h2 className="text-2xl sm:text-3xl">

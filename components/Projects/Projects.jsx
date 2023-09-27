@@ -5,7 +5,7 @@ import { HiOutlineExternalLink } from "react-icons/hi";
 
 export default function Projects() {
   return (
-    <section className="py-20 bg-gray-50" id="projects">
+    <section className="py-20" id="projects">
       <div className="container">
         <h2 className="text-primary">Projects</h2>
         <h2 className="text-2xl">

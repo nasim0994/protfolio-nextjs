@@ -44,6 +44,9 @@ export default function Header() {
                 <Link href="#contact">Contact</Link>
               </li>
               <li>
+                <Link href="#experience">Experience</Link>
+              </li>
+              <li>
                 <Link href="">Blogs</Link>
               </li>
               <li>

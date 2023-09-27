@@ -26,13 +26,16 @@ export default function MobileMenu({ mobileMenu, setMobileMenu }) {
             <Link href="#about">About</Link>
           </li>
           <li>
-            <Link href="#contact">Contact</Link>
+            <Link href="#projects">Projects</Link>
           </li>
           <li>
             <Link href="#skills">Skills</Link>
           </li>
           <li>
-            <Link href="#projects">Projects</Link>
+            <Link href="#contact">Contact</Link>
+          </li>
+          <li>
+            <Link href="#experience">Experience</Link>
           </li>
           <li>
             <Link href="">Blogs</Link>

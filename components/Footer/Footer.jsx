@@ -5,7 +5,7 @@ import { PiLinkedinLogoBold } from "react-icons/pi";
 
 export default function Footer() {
   return (
-    <footer className="bg-gray-50 py-5">
+    <footer className="py-5 bg-gray-50">
       <div className="container">
         <div className="sm:flex justify-between items-center">
           <div>

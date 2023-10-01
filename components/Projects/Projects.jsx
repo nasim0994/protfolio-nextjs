@@ -15,7 +15,7 @@ export default function Projects() {
         <div className="md:mx-10">
           <div className="project_card">
             <div className="project_img">
-              <Link href="">
+              <Link href="https://maxuipro.vercel.app/" target="_blank">
                 <Image
                   src="/images/projects/maxui.png"
                   alt=""
@@ -38,10 +38,10 @@ export default function Projects() {
               </div>
 
               <div className="links">
-                <Link href="">
+                <Link href="https://github.com/nasim0994/MaxUI" target="_blank">
                   Code <FiGithub />
                 </Link>
-                <Link href="">
+                <Link href="https://maxuipro.vercel.app/" target="_blank">
                   Live Demo <HiOutlineExternalLink />
                 </Link>
               </div>
@@ -50,31 +50,41 @@ export default function Projects() {
 
           <div className="project_card">
             <div className="project_content">
-              <h2 className="text-xl">MaxUI (CSS Framework)</h2>
+              <h2 className="text-xl">MaxUI Dashboard</h2>
               <div className="mt-3 text-neutral-content">
                 <p>
-                  MaxUI is a library of components built on top of the utility
-                  classes from Tailwind CSS. It is just a demo.
+                  MaxUI Dashboard is a beautiful admin dashboard with a large
+                  number of components, designed to look beautiful and
+                  organized.
                 </p>
                 <p className="mt-2">
-                  Technologies: React.js, and Tailwind CSS.
+                  Technologies: HTML, Tailwind CSS, and Javascript.
                 </p>
               </div>
 
               <div className="links">
-                <Link href="">
+                <Link
+                  href="https://github.com/nasim0994/MaxUi-Dashboard"
+                  target="_blank"
+                >
                   Code <FiGithub />
                 </Link>
-                <Link href="">
+                <Link
+                  href="https://nasim0994.github.io/MaxUi-Dashboard/"
+                  target="_blank"
+                >
                   Live Demo <HiOutlineExternalLink />
                 </Link>
               </div>
             </div>
 
             <div className="project_img">
-              <Link href="">
+              <Link
+                href="https://nasim0994.github.io/MaxUi-Dashboard/"
+                target="_blank"
+              >
                 <Image
-                  src="/images/projects/maxui.png"
+                  src="/images/projects/maxui_dashboard.png"
                   alt=""
                   width={500}
                   height={500}
@@ -85,9 +95,12 @@ export default function Projects() {
 
           <div className="project_card">
             <div className="project_img">
-              <Link href="">
+              <Link
+                href="https://e-learning-fawn-iota.vercel.app/"
+                target="_blank"
+              >
                 <Image
-                  src="/images/projects/maxui.png"
+                  src="/images/projects/e-learning.png"
                   alt=""
                   width={500}
                   height={500}
@@ -95,30 +108,6 @@ export default function Projects() {
               </Link>
             </div>
 
-            <div className="project_content">
-              <h2 className="text-xl">MaxUI (CSS Framework)</h2>
-              <div className="mt-3 text-neutral-content">
-                <p>
-                  MaxUI is a library of components built on top of the utility
-                  classes from Tailwind CSS. It is just a demo.
-                </p>
-                <p className="mt-2">
-                  Technologies: React.js, and Tailwind CSS.
-                </p>
-              </div>
-
-              <div className="links">
-                <Link href="">
-                  Code <FiGithub />
-                </Link>
-                <Link href="">
-                  Live Demo <HiOutlineExternalLink />
-                </Link>
-              </div>
-            </div>
-          </div>
-
-          <div className="project_card">
             <div className="project_content">
               <h2 className="text-xl">E-learning</h2>
               <div className="mt-3 text-neutral-content">
@@ -130,24 +119,19 @@ export default function Projects() {
               </div>
 
               <div className="links">
-                <Link href="">
+                <Link
+                  href="https://github.com/nasim0994/e-learning"
+                  target="_blank"
+                >
                   Code <FiGithub />
                 </Link>
-                <Link href="">
+                <Link
+                  href="https://e-learning-fawn-iota.vercel.app/"
+                  target="_blank"
+                >
                   Live Demo <HiOutlineExternalLink />
                 </Link>
               </div>
-            </div>
-
-            <div className="project_img">
-              <Link href="">
-                <Image
-                  src="/images/projects/e-learning.png"
-                  alt=""
-                  width={500}
-                  height={500}
-                />
-              </Link>
             </div>
           </div>
         </div>

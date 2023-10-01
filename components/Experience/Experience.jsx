@@ -13,6 +13,16 @@ export default function Experience() {
               <p>Dhaka</p>
             </div>
           </li>
+
+          <br />
+
+          <li>
+            <h3 className="text-2xl font-medium">Web Developer</h3>
+            <div className="flex items-center italic gap-20 text-secondary text-sm">
+              <p>03-2021 - 05-2022</p>
+              <p>Remote</p>
+            </div>
+          </li>
         </ul>
       </div>
     </section>

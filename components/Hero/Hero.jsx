@@ -47,6 +47,10 @@ export default function Hero() {
                   MERN Stack Developer
                 </span>
               </h2>
+              <p className="mt-3 text-neutral-content w-4/5">
+                I have 1 year of experience as Front-End Developer at Pidex
+                Limited, and 1 year working with local team.
+              </p>
 
               <div className="mt-6 flex gap-3">
                 <Link

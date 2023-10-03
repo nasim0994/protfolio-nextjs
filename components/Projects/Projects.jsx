@@ -15,6 +15,46 @@ export default function Projects() {
         <div className="md:mx-10">
           <div className="project_card">
             <div className="project_img">
+              <Link href="https://fitnessgymclub.vercel.app/" target="_blank">
+                <Image
+                  src="/images/projects/fitnessgymclub.png"
+                  alt="fitness gym club"
+                  width={500}
+                  height={500}
+                />
+              </Link>
+            </div>
+
+            <div className="project_content">
+              <h2 className="text-xl">FITNESS GYM CLUB</h2>
+              <div className="mt-3 text-neutral-content">
+                <p>
+                  A gym website is a comprehensive resource for fitness
+                  information, class schedules, membership options, and tools to
+                  help users achieve their fitness goals.
+                </p>
+                <p className="mt-2">
+                  <span className="text-accent font-medium">Technologies:</span>{" "}
+                  Next js, and tailwind CSS.
+                </p>
+              </div>
+
+              <div className="links">
+                <Link
+                  href="https://github.com/nasim0994/fitness-gym-club"
+                  target="_blank"
+                >
+                  Code <FiGithub />
+                </Link>
+                <Link href="https://fitnessgymclub.vercel.app/" target="_blank">
+                  Live Demo <HiOutlineExternalLink />
+                </Link>
+              </div>
+            </div>
+          </div>
+
+          <div className="project_card">
+            <div className="project_img">
               <Link href="https://maxuipro.vercel.app/" target="_blank">
                 <Image
                   src="/images/projects/maxui.png"
@@ -33,7 +73,8 @@ export default function Projects() {
                   classes from Tailwind CSS. It is just a demo.
                 </p>
                 <p className="mt-2">
-                  Technologies: React.js, and Tailwind CSS.
+                  <span className="text-accent font-medium">Technologies:</span>{" "}
+                  React.js, and Tailwind CSS.
                 </p>
               </div>
 
@@ -58,7 +99,8 @@ export default function Projects() {
                   organized.
                 </p>
                 <p className="mt-2">
-                  Technologies: HTML, Tailwind CSS, and Javascript.
+                  <span className="text-accent font-medium">Technologies:</span>{" "}
+                  HTML, Tailwind CSS, and Javascript.
                 </p>
               </div>
 
@@ -90,48 +132,6 @@ export default function Projects() {
                   height={500}
                 />
               </Link>
-            </div>
-          </div>
-
-          <div className="project_card">
-            <div className="project_img">
-              <Link
-                href="https://e-learning-fawn-iota.vercel.app/"
-                target="_blank"
-              >
-                <Image
-                  src="/images/projects/e-learning.png"
-                  alt=""
-                  width={500}
-                  height={500}
-                />
-              </Link>
-            </div>
-
-            <div className="project_content">
-              <h2 className="text-xl">E-learning</h2>
-              <div className="mt-3 text-neutral-content">
-                <p>
-                  E-learning is a website selling online courses. This is a
-                  bootstrap landing page.
-                </p>
-                <p className="mt-2">Technologies: HTML, and Bootstrap.</p>
-              </div>
-
-              <div className="links">
-                <Link
-                  href="https://github.com/nasim0994/e-learning"
-                  target="_blank"
-                >
-                  Code <FiGithub />
-                </Link>
-                <Link
-                  href="https://e-learning-fawn-iota.vercel.app/"
-                  target="_blank"
-                >
-                  Live Demo <HiOutlineExternalLink />
-                </Link>
-              </div>
             </div>
           </div>
         </div>

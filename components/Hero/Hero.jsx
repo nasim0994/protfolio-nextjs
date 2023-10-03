@@ -35,7 +35,7 @@ export default function Hero() {
 
       <div className="hero_content ">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-10 items-center">
+          <div className="grid md:grid-cols-2 gap-5 items-center">
             <div className="relative z-40">
               <h2 className="sm:text-2xl">Hello, my name is</h2>
               <h2 className="text-3xl md:text-5xl lg:text-6xl sm:my-3">
@@ -74,7 +74,7 @@ export default function Hero() {
               <Image
                 src="/images/hero/hero.png"
                 alt=""
-                className="w-full mx-auto"
+                className="w-full mx-auto h-[380px]"
                 width={500}
                 height={500}
               />

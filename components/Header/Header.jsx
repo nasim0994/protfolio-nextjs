@@ -6,6 +6,7 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { MdDarkMode } from "react-icons/md";
 
 import MobileMenu from "./MobileMenu";
+import Image from "next/image";
 
 export default function Header() {
   const [mobileMenu, setMobileMenu] = useState(false);
@@ -26,7 +27,14 @@ export default function Header() {
       <div className="container">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center gap-px">
-            <h1 className="font-bold text-2xl text-gradient">Nasim.dev</h1>
+            {/* <h1 className="font-bold text-2xl text-gradient">NHN</h1> */}
+            <Image
+              src="/images/logo/logo.png"
+              alt=""
+              className="w-10"
+              width={500}
+              height={500}
+            />
           </Link>
 
           <nav>

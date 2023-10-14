@@ -104,12 +104,22 @@ export default function Skills() {
 
               <div className="skill">
                 <Image
+                  src="/images/skills/node.png"
+                  alt=""
+                  width={500}
+                  height={500}
+                />
+              </div>
+
+              <div className="skill">
+                <Image
                   src="/images/skills/express.png"
                   alt=""
                   width={500}
                   height={500}
                 />
               </div>
+
               <div className="skill">
                 <Image
                   src="/images/skills/mongodb.svg"

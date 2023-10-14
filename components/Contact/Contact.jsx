@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section className="py-10 md:py-20 bg-gray-50" id="contact">
       <div className="container">
-        <h2 className="text-primary">Contact</h2>
+        <h2 className="text-primary mb-5">Contact</h2>
         <h2 className="text-2xl sm:text-3xl">
           Don&apos;t be shy! Hit me up! 👇
         </h2>

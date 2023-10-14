@@ -33,13 +33,13 @@ export default function Hero() {
     <section className="hero_wrap h-[90vh] lg:h-screen" id="home">
       <Header />
 
-      <div className="hero_content ">
+      <div className="hero_content pt-10 md:pt-0">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-5 items-center">
             <div className="relative z-40">
               <h2 className="sm:text-2xl">Hello, my name is</h2>
-              <h2 className="text-3xl md:text-5xl lg:text-6xl sm:my-3">
-                Nasim Uddin
+              <h2 className="text-3xl md:text-5xl lg:text-[55px] sm:my-3">
+                Nuaim Hasan Nasim
               </h2>
               <h2 className="sm:text-xl">
                 And i am{" "}
@@ -74,7 +74,7 @@ export default function Hero() {
               <Image
                 src="/images/hero/hero.png"
                 alt=""
-                className="w-full mx-auto h-[380px]"
+                className="md:w-full mx-auto h-56 md:h-[380px]"
                 width={500}
                 height={500}
               />

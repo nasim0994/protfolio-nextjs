@@ -1,8 +1,8 @@
 import "@/style/globals.css";
 
 export const metadata = {
-  title: "Nasim Uddin || Full Stack Developer",
-  description: "Web Developer",
+  title: "Nuaim Hasan Nasim || MERN Stack Developer",
+  description: "MERN Stack Developer",
   icons: {
     icon: "/images/logo/logo.png",
   },

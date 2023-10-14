@@ -46,7 +46,8 @@ export default function About() {
 
             <div className="mt-5 sm:mt-8">
               <Link
-                href=""
+                href="https://drive.google.com/file/d/1CGwiMRU3RxiBag6Out1OBMlbdz3KiwEf/view?usp=drive_link"
+                target="_blank"
                 className="bg-primary-g px-5 py-2.5 text-sm sm:text-base"
               >
                 View Resume

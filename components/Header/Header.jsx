@@ -65,14 +65,14 @@ export default function Header() {
             </ul>
 
             <ul className="gap-4 text-[15px] menu flex md:hidden">
-              <li>
+              {/* <li>
                 <button className="text-xl mt-px hover:text-primary text-neutral-content dark:text-gray-400 ">
                   <BiSun />
                 </button>
-              </li>
+              </li> */}
               <li>
                 <button onClick={() => setMobileMenu(!mobileMenu)}>
-                  <RxHamburgerMenu className="text-xl" />
+                  <RxHamburgerMenu className="text-xl text-base-100" />
                 </button>
               </li>
             </ul>

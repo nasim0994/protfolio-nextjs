@@ -29,7 +29,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="hero_wrap md:h-screen" id="home">
+    <section className="hero_wrap h-[105vh] md:h-screen" id="home">
       <Header />
 
       <div className="hero_content pt-10 md:pt-0 text-base-100">

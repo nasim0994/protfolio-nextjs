@@ -11,6 +11,7 @@ import Hero from "@/components/Hero/Hero";
 import Projects from "@/components/Projects/Projects";
 import ScrollTop from "@/components/ScrollTop/ScrollTop";
 import Skills from "@/components/Skills/Skills";
+import Header from "@/components/Header/Header";
 
 export default function Home() {
   useEffect(() => {
@@ -21,6 +22,7 @@ export default function Home() {
 
   return (
     <>
+      <Header />
       <Hero />
       <About />
       <Skills />

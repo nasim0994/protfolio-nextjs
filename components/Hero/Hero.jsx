@@ -1,6 +1,4 @@
-"use client";
 import Link from "next/link";
-import Header from "../Header/Header";
 import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoBold } from "react-icons/pi";
 import Typed from "typed.js";
@@ -29,12 +27,10 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="hero_wrap h-[103vh] md:h-screen" id="home">
-      <Header />
-
+    <section className="hero_wrap h-[102vh] md:h-screen" id="home">
       <div className="hero_content pt-10 md:pt-0 text-base-100">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-5 md:gap-0 items-center">
+          <div className="grid md:grid-cols-2 gap-10 md:gap-0 items-center">
             <div className="relative z-40">
               <h2 className="sm:text-2xl">Hello, my name is</h2>
               <h2 className="text-3xl md:text-5xl lg:text-[55px] sm:my-3">
@@ -77,7 +73,7 @@ export default function Hero() {
         </div>
       </div>
 
-      <div className=" absolute bottom-0 w-full">
+      <div className=" absolute -bottom-1 w-full">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

@@ -23,7 +23,7 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`py-4 ${fixedHeader && "fixed_header"}`}>
+    <header className={`py-4 bg-[#282A35] ${fixedHeader && "fixed_header"}`}>
       <div className="container">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center gap-px">

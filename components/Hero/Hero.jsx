@@ -29,12 +29,12 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="hero_wrap h-[105vh] md:h-screen" id="home">
+    <section className="hero_wrap h-[103vh] md:h-screen" id="home">
       <Header />
 
       <div className="hero_content pt-10 md:pt-0 text-base-100">
         <div className="container">
-          <div className="grid md:grid-cols-2 items-center">
+          <div className="grid md:grid-cols-2 gap-5 md:gap-0 items-center">
             <div className="relative z-40">
               <h2 className="sm:text-2xl">Hello, my name is</h2>
               <h2 className="text-3xl md:text-5xl lg:text-[55px] sm:my-3">

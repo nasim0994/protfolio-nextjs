@@ -66,6 +66,8 @@ h2 {
   background: #ffffffcc;
   backdrop-filter: blur(30px);
   box-shadow: 0 -3px 13px -4px #0000000d, 0 8px 9px -5px #0000000d;
+
+  transition: all 0.3s ease;
 }
 
 .fixed_header .menu li a {

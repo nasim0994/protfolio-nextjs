@@ -27,7 +27,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="hero_wrap h-[102vh] md:h-screen" id="home">
+    <section className="hero_wrap h-screen mt-10" id="home">
       <div className="hero_content pt-10 md:pt-0 text-base-100">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-10 md:gap-0 items-center">

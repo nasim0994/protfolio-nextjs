@@ -23,7 +23,11 @@ export default function Header() {
   }, []);
 
   return (
-    <header className={`py-4 bg-[#282A35] ${fixedHeader && "fixed_header"}`}>
+    <header
+      className={`py-4 bg-[#282A35] fixed top-0 z-50 w-full left-0 ${
+        fixedHeader && "fixed_header"
+      }`}
+    >
       <div className="container">
         <div className="flex justify-between items-center">
           <Link href="/" className="flex items-center gap-px">
@@ -72,7 +76,11 @@ export default function Header() {
               </li> */}
               <li>
                 <button onClick={() => setMobileMenu(!mobileMenu)}>
-                  <RxHamburgerMenu className="text-xl text-base-100" />
+                  <RxHamburgerMenu
+                    className={`text-xl text-base-100 ${
+                      fixedHeader && "text-neutral"
+                    } `}
+                  />
                 </button>
               </li>
             </ul>

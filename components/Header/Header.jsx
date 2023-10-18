@@ -57,11 +57,11 @@ export default function Header() {
               <li>
                 <Link href="">Blogs</Link>
               </li>
-              <li>
+              {/* <li>
                 <button className="text-xl mt-px hover:text-primary dark:hover:text-primary text-neutral-content dark:text-gray-400">
                   <BiSun />
                 </button>
-              </li>
+              </li> */}
             </ul>
 
             <ul className="gap-4 text-[15px] menu flex md:hidden">

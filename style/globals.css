@@ -68,14 +68,18 @@ h2 {
   box-shadow: 0 -3px 13px -4px #0000000d, 0 8px 9px -5px #0000000d;
 }
 
+.fixed_header .menu li a {
+  color: #4f4f50;
+}
+
 .menu li a {
-  color: #606060;
+  color: #fff;
   transition: all 0.3s ease;
 }
 
 .menu li a:hover,
 html.dark .menu li a:hover {
-  color: #4338ca;
+  color: #9a4dc1;
 }
 
 html.dark .menu li a {
@@ -83,7 +87,7 @@ html.dark .menu li a {
 }
 
 .hero_wrap {
-  background-image: url("/images/hero/hero_bg.png");
+  background-image: url("/images/hero/hero_bg.gif");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -321,4 +325,12 @@ html.dark .hero_wrap {
   100% {
     transform: rotate(360deg);
   }
+}
+
+.skill {
+  transition: all 0.3s ease;
+}
+
+.skill:hover {
+  margin-top: -2px;
 }

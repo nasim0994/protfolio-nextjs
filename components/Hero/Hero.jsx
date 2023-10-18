@@ -1,6 +1,5 @@
 "use client";
 import Link from "next/link";
-import Image from "next/image";
 import Header from "../Header/Header";
 import { FiGithub } from "react-icons/fi";
 import { PiLinkedinLogoBold } from "react-icons/pi";
@@ -30,12 +29,12 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="hero_wrap h-[90vh] lg:h-screen" id="home">
+    <section className="hero_wrap md:h-screen" id="home">
       <Header />
 
-      <div className="hero_content pt-10 md:pt-0">
+      <div className="hero_content pt-10 md:pt-0 text-base-100">
         <div className="container">
-          <div className="grid md:grid-cols-2 gap-5 items-center">
+          <div className="grid md:grid-cols-2 items-center">
             <div className="relative z-40">
               <h2 className="sm:text-2xl">Hello, my name is</h2>
               <h2 className="text-3xl md:text-5xl lg:text-[55px] sm:my-3">
@@ -47,9 +46,10 @@ export default function Hero() {
                   MERN Stack Developer
                 </span>
               </h2>
-              <p className="mt-3 text-neutral-content w-4/5">
+              <p className="mt-3 text-gray-300 w-4/5">
                 I have 1 year of experience as Front-End Developer at Pidex
-                Limited, and 1 year working with local team.
+                Limited, and 1.5 year of experience as Web Designer at
+                regisroumila (USA-Remote).
               </p>
 
               <div className="mt-6 flex gap-3">
@@ -71,19 +71,13 @@ export default function Hero() {
             </div>
 
             <div>
-              <Image
-                src="/images/hero/hero.png"
-                alt=""
-                className="md:w-full mx-auto h-56 md:h-[380px]"
-                width={500}
-                height={500}
-              />
+              <div className="about_img w-[90%] sm:w-1/2 md:w-full lg:w-[26rem] h-72 md:h-[23rem] lg:h-[26rem]"></div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="absolute bottom-0 w-full">
+      <div className=" absolute bottom-0 w-full">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

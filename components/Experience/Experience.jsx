@@ -6,8 +6,10 @@ export default function Experience() {
 
         <ul className="mt-6 list-disc pl-10">
           <li>
-            <h3 className="text-2xl font-medium">Front-End Developer</h3>
-            <h4 className="text-lg">Pidex Limited</h4>
+            <h3 className="text-xl sm:text-2xl font-medium">
+              Front-End Developer
+            </h3>
+            <h4 className="sm:text-lg">Pidex Limited</h4>
             <div className="flex items-center italic gap-20 text-secondary text-sm">
               <p>01-2023 - present</p>
               <p>Dhaka</p>
@@ -17,8 +19,8 @@ export default function Experience() {
           <br />
 
           <li>
-            <h3 className="text-2xl font-medium">Web Designer</h3>
-            <h4 className="text-lg">regisroumila</h4>
+            <h3 className="text-xl sm:text-2xl font-medium">Web Designer</h3>
+            <h4 className="sm:text-lg">regisroumila</h4>
             <div className="flex items-center italic gap-20 text-secondary text-sm">
               <p>12-2020 - 01-2022</p>
               <p>Remote(USA)</p>

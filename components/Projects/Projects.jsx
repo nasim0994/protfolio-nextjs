@@ -13,7 +13,7 @@ export default function Projects() {
         </h2>
 
         <div className="md:mx-10">
-          <div className="project_card">
+          <div className="project_card" data-aos="fade-up">
             <div className="project_img">
               <Link href="https://fitnessgymclub.vercel.app/" target="_blank">
                 <Image
@@ -53,7 +53,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="project_card">
+          <div className="project_card" data-aos="fade-up">
             <div className="project_img">
               <Link href="https://maxuipro.vercel.app/" target="_blank">
                 <Image
@@ -89,7 +89,7 @@ export default function Projects() {
             </div>
           </div>
 
-          <div className="project_card">
+          <div className="project_card" data-aos="fade-up">
             <div className="project_content">
               <h2 className="text-xl">MaxUI Dashboard</h2>
               <div className="mt-3 text-neutral-content">

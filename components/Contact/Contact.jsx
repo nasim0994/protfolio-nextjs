@@ -13,8 +13,8 @@ export default function Contact() {
 
         <div className="mt-8 grid sm:grid-cols-2 md:grid-cols-3 gap-6">
           <div className="flex items-center gap-2">
-            <div className="w-14 h-14 bg-base-100 shadow-lg rounded-full flex justify-center items-center ">
-              <FiMap className="text-xl sm:text-2xl text-primary" />
+            <div className="w-12 h-12 sm:w-14 sm:h-14 bg-base-100 shadow-lg rounded-full flex justify-center items-center ">
+              <FiMap className="text-lg sm:text-2xl text-primary" />
             </div>
             <div>
               <h3 className="text-lg">Location</h3>
@@ -23,7 +23,7 @@ export default function Contact() {
           </div>
 
           <div className="flex items-center gap-2">
-            <div className="w-16 h-16 bg-base-100 shadow-lg rounded-full flex justify-center items-center">
+            <div className="w-12 h-12 sm:w-[58px] sm:h-[58px] bg-base-100 shadow-lg rounded-full flex justify-center items-center">
               <HiOutlineMail className="text-xl sm:text-3xl text-primary" />
             </div>
             <div>
@@ -33,7 +33,7 @@ export default function Contact() {
           </div>
 
           <div className="flex items-center gap-2">
-            <div className="w-16 h-16 bg-base-100 shadow-lg rounded-full flex justify-center items-center">
+            <div className="w-12 h-12 sm:w-[58px] sm:h-[58px] bg-base-100 shadow-lg rounded-full flex justify-center items-center">
               <AiOutlineMobile className="text-xl sm:text-3xl text-primary" />
             </div>
             <div>
